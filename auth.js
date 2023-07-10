@@ -23,9 +23,6 @@ const hashPassword = (req, res, next) => {
       res.sendStatus(500);
     });
 };
-// in auth.js
-
-// ...
 
 const jwt = require("jsonwebtoken"); // don't forget to import
 
